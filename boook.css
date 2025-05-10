@@ -1,0 +1,121 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f5eee0;
+  margin: 0;
+  padding: 40px 20px;
+  direction: rtl;
+  color: #3e2f1c;
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #6a4e35;
+  margin-bottom: 25px;
+}
+
+.info-box {
+  background-color: #f9f1e3;
+  border: 1px solid #d2b48c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.info-box h2 {
+  margin-top: 0;
+  color: #5a3e26;
+  font-size: 20px;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+}
+
+form label {
+  display: block;
+  margin: 12px 0 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b89b77;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 18px;
+  background: linear-gradient(to right, #8e6b44, #d2b48c);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #d2b48c, #8e6b44);
+}
+
+#result {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #004d00;
+}
+
+.payment {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.payment h3 {
+  margin-bottom: 10px;
+}
+
+.icons img {
+  width: 40px;
+  margin: 0 8px;
+  transition: transform 0.3s;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+h2 {
+  font-size: 30px;
+  color: #605724;
+}
+.eg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eg{
+  padding: 5px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: #cfc5b3;
+  border: 1px solid #a58c64;
+  border-radius: 8px;
+  /* cursor: pointer; */
+  transition: 0.3s;
+}
+
+.visitor-type button:hover {
+  background-color: #bda67a;
+}
